@@ -1,1 +1,7 @@
-
+version: "3.9"
+services:
+  my-fastapi-service:
+    container_name: sectioninfo
+    build: .
+    ports:
+      - "8080:8080"
